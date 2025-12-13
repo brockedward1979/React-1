@@ -8,8 +8,8 @@ import rasm3 from "../src/assets/Icons/email.svg";
 export default function Footer() {
 	return (
 		<div className="ota_footer  umumiy">
-			<div class="footer-container">
-				<div class="footer-logo">
+			<div className="footer-container">
+				<div className="footer-logo">
 					<h2>House Design Gallery</h2>
 					<p>
 						Klassik va Zamonaviy uy ruhlantiruvchi g'oyalari. Eskirmaydigan
@@ -17,7 +17,7 @@ export default function Footer() {
 					</p>
 				</div>
 
-				<div class="footer-links">
+				<div className="footer-links">
 					<h3>Tezkor linklar</h3>
 					<ul>
 						<li>
@@ -35,7 +35,7 @@ export default function Footer() {
 					</ul>
 				</div>
 
-				<div class="footer-contact">
+				<div className="footer-contact">
 					<h3>Bog'lanish</h3>
 					<div className="ota_info_footer">
 						<img
@@ -65,7 +65,7 @@ export default function Footer() {
 				</div>
 			</div>
 
-			<div class="footer-bottom">
+			<div className="footer-bottom">
 				© 2025 Uy Dizayn Galereyasi. Barcha huquqlar himoyalangan.
 			</div>
 		</div>

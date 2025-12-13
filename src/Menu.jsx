@@ -2,6 +2,7 @@ import React from "react";
 import "./Menu.css";
 
 import rasm1 from "./assets/Icons/logo.svg";
+import rasm2 from "../src/assets/Icons/lupa-1.svg";
 
 export default function Menu() {
 	return (
@@ -14,7 +15,7 @@ export default function Menu() {
 			<li className="itemlar searchbox">
 				<button className="qidiruv_button">
 					<img
-						src="../src/assets/Icons/lupa-1.svg"
+						src={rasm2}
 						alt=""
 						className="lupa"
 					/>
