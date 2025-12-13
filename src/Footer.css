@@ -1,0 +1,113 @@
+.ota_footer {
+  /* background-color: #1a252f;
+  text-align: center; */
+
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 60px;
+
+
+
+}
+
+.ota_info_footer {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  grid-gap: 10px;
+
+  align-items: center;
+
+
+
+
+
+}
+
+.email {
+
+  word-break: break-all;
+}
+
+.tel {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+.footer-container {
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 426px) and (min-width: 0px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .footer-container {
+    grid-template-columns: 2fr 1fr;
+  }
+
+}
+
+
+
+
+
+.footer-logo h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #f1c40f;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #bdc3c7;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ecf0f1;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f1c40f;
+}
+
+.footer-contact p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #7f8c8d;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #95a5a6;
+}

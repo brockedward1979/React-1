@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 80 80">
+  <!-- Kvadrat fon -->
+  <rect x="0" y="0" width="80" height="80" rx="15" fill="grey" stroke="#f1c40f" stroke-width="5"/>
+  
+  <!-- Location icon -->
+  <path d="M40 15
+           C30 15, 22 23, 22 33
+           C22 48, 40 65, 40 65
+           C40 65, 58 48, 58 33
+           C58 23, 50 15, 40 15z"
+        fill="none" stroke="#ecf0f1" stroke-width="15"/>
+  
+  <!-- Markazdagi nuqta -->
+  <circle cx="40" cy="33" r="4" fill="#f1c40f"/>
+</svg>
