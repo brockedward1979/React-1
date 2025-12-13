@@ -1,6 +1,10 @@
 import React from "react";
 import "./Footer.css";
 
+import rasm1 from "../src/assets/Icons/location.svg";
+import rasm2 from "../src/assets/Icons/phone.svg";
+import rasm3 from "../src/assets/Icons/email.svg";
+
 export default function Footer() {
 	return (
 		<div className="ota_footer  umumiy">
@@ -35,13 +39,13 @@ export default function Footer() {
 					<h3>Bog'lanish</h3>
 					<div className="ota_info_footer">
 						<img
-							src="../src/assets/Icons/location.svg"
+							src={rasm1}
 							alt=""
 							className="phone_img"
 						/>
 						<p>Xorazm, Uzbekistan</p>
 						<img
-							src="../src/assets/Icons/phone.svg"
+							src={rasm2}
 							alt=""
 							className="phone_img"
 						/>
@@ -52,7 +56,7 @@ export default function Footer() {
 							+998 88 603 12 18
 						</a>
 						<img
-							src="../src/assets/Icons/email.svg"
+							src={rasm3}
 							alt=""
 							className="phone_img"
 						/>

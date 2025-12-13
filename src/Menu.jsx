@@ -1,11 +1,13 @@
 import React from "react";
 import "./Menu.css";
 
+import rasm1 from "./assets/Icons/logo.svg";
+
 export default function Menu() {
 	return (
 		<ul className="menu  umumiy">
 			<img
-				src="../src/assets/Icons/logo.svg"
+				src={rasm1}
 				alt=""
 				className="logo"
 			/>
