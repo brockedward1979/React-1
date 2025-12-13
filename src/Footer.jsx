@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 import rasm1 from "../src/assets/Icons/location.svg";
 import rasm2 from "../src/assets/Icons/phone.svg";
@@ -21,16 +22,16 @@ export default function Footer() {
 					<h3>Tezkor linklar</h3>
 					<ul>
 						<li>
-							<a href="#">Home</a>
+							<Link to="/">Home</Link>
 						</li>
 						<li>
-							<a href="#">Gallery</a>
+							<Link to="/">Gallery</Link>
 						</li>
 						<li>
-							<a href="#">Design Ideas</a>
+							<Link to="/">Design Ideas</Link>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<Link to="/">Contact</Link>
 						</li>
 					</ul>
 				</div>
@@ -49,12 +50,12 @@ export default function Footer() {
 							alt=""
 							className="phone_img"
 						/>
-						<a
-							href="tel:+998886031218"
+						<Link
+							to="tel:+998886031218"
 							className="tel"
 						>
 							+998 88 603 12 18
-						</a>
+						</Link>
 						<img
 							src={rasm3}
 							alt=""

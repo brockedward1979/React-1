@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menu.css";
+import { Link } from "react-router-dom";
 
 import rasm1 from "./assets/Icons/logo.svg";
 import rasm2 from "../src/assets/Icons/lupa-1.svg";
@@ -29,28 +30,28 @@ export default function Menu() {
 
 			<div className="linklar_div">
 				<li className="itemlar">
-					<a
-						href="#"
+					<Link
+						to="/"
 						className="linklar"
 					>
 						Home
-					</a>
+					</Link>
 				</li>
 				<li className="itemlar">
-					<a
-						href="#"
+					<Link
+						to="/"
 						className="linklar"
 					>
 						About
-					</a>
+					</Link>
 				</li>
 				<li className="itemlar">
-					<a
-						href="#"
+					<Link
+						to="/"
 						className="linklar"
 					>
 						Contact
-					</a>
+					</Link>
 				</li>
 			</div>
 		</ul>

@@ -1,40 +1,41 @@
 import React from "react";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
 	return (
 		<div className="ota_sidebar  umumiy">
 			<div className="sticky_qilinadigan">
-				<a
-					href="#"
+				<Link
+					to="/"
 					className="buttonlar"
 				>
 					Interior
-				</a>
-				<a
-					href="#"
+				</Link>
+				<Link
+					to="/"
 					className="buttonlar"
 				>
 					Exterior
-				</a>
-				<a
-					href="#"
+				</Link>
+				<Link
+					to="/"
 					className="buttonlar"
 				>
 					Kitchen
-				</a>
-				<a
-					href="#"
+				</Link>
+				<Link
+					to="/"
 					className="buttonlar"
 				>
 					Living room
-				</a>
-				<a
-					href="#"
+				</Link>
+				<Link
+					to="/"
 					className="buttonlar"
 				>
 					Library
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
