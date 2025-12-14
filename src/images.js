@@ -557,3 +557,51 @@ export const libraryImages = [
 	library29,
 	library30,
 ];
+
+import office1 from "./assets/Office/office1.jpg";
+import office2 from "./assets/Office/office2.jpg";
+import office3 from "./assets/Office/office3.jpg";
+import office4 from "./assets/Office/office4.jpg";
+import office5 from "./assets/Office/office5.jpg";
+import office6 from "./assets/Office/office6.jpg";
+import office7 from "./assets/Office/office7.jpg";
+import office8 from "./assets/Office/office8.jpg";
+import office9 from "./assets/Office/office9.jpg";
+import office10 from "./assets/Office/office10.jpg";
+import office11 from "./assets/Office/office11.jpg";
+import office12 from "./assets/Office/office12.jpg";
+import office13 from "./assets/Office/office13.jpg";
+import office14 from "./assets/Office/office14.jpg";
+import office15 from "./assets/Office/office15.jpg";
+import office16 from "./assets/Office/office16.jpg";
+import office17 from "./assets/Office/office17.jpg";
+import office18 from "./assets/Office/office18.jpg";
+import office19 from "./assets/Office/office19.jpg";
+import office20 from "./assets/Office/office20.jpg";
+import office21 from "./assets/Office/office21.jpg";
+import office22 from "./assets/Office/office22.jpg";
+
+export const officeImages = [
+	office1,
+	office2,
+	office3,
+	office4,
+	office5,
+	office6,
+	office7,
+	office8,
+	office9,
+	office10,
+	office11,
+	office12,
+	office13,
+	office14,
+	office15,
+	office16,
+	office17,
+	office18,
+	office19,
+	office20,
+	office21,
+	office22,
+];

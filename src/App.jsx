@@ -10,6 +10,7 @@ import {
 	kitchenImages,
 	livingRoomImages,
 	libraryImages,
+	officeImages,
 } from "./images";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -43,8 +44,8 @@ function App() {
 						element={<Content images={libraryImages} />}
 					/>
 					<Route
-						path="/"
-						element={<Content images={libraryImages} />}
+						path="/Office"
+						element={<Content images={officeImages} />}
 					/>
 				</Routes>
 			</div>

@@ -2,7 +2,7 @@
   /* background-color: #1a252f;
   text-align: center; */
 
-  background-color: #322826;
+  background-color: #2e211f;
   color: #ecf0f1;
   padding: 40px 60px;
 
@@ -72,10 +72,12 @@ a:link {
 
 
 
-.footer-logo h2 {
+.footer-logo .footer-title {
   font-size: 28px;
   margin: 0;
-  color: #f1c40f;
+  color: #f1710f;
+
+  /* #f1c40f; */
 }
 
 .footer-logo p {

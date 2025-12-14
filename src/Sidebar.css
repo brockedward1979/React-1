@@ -1,7 +1,9 @@
 .ota_sidebar {
   /* background-color: #bdbadb; */
-  font-size: 16px;
+  font-size: 25px;
   box-sizing: border-box;
+
+  border-right: 1px solid #e4cfcf;
 
 
 

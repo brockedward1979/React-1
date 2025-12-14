@@ -2,13 +2,8 @@ import React from "react";
 import "./Sidebar.css";
 import "./Content.css";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 
 export default function Sidebar() {
-	useEffect(() => {
-		window.scrollTo(0, 0); // sahifa ochilganda tepaga qaytaradi
-	}, []);
-
 	return (
 		<div className="ota_sidebar umumiy">
 			<div className="sticky_qilinadigan">
@@ -41,6 +36,12 @@ export default function Sidebar() {
 					className="buttonlar"
 				>
 					Library
+				</Link>
+				<Link
+					to="/Office"
+					className="buttonlar"
+				>
+					Office
 				</Link>
 			</div>
 		</div>

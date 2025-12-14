@@ -11,7 +11,7 @@ export default function Footer() {
 		<div className="ota_footer  umumiy">
 			<div className="footer-container">
 				<div className="footer-logo">
-					<h2>House Design Gallery</h2>
+					<h2 className="footer-title">House Design Gallery</h2>
 					<p>
 						Klassik va Zamonaviy uy ruhlantiruvchi g'oyalari. Eskirmaydigan
 						arxitektura va nafis interyerlar.
