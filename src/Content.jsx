@@ -12,6 +12,7 @@ export default function Content({ images }) {
 					<img
 						src={src}
 						alt={`rasm-${i}`}
+						loading="lazy"
 						className="rasmlar"
 					/>
 				</div>
