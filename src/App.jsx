@@ -4,16 +4,52 @@ import Menu from "./Menu";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 
+import {
+	gardenImages,
+	exteriorImages,
+	kitchenImages,
+	livingRoomImages,
+	libraryImages,
+} from "./images";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
 	return (
-		<>
+		<Router>
 			<div className="ota">
 				<Menu />
+
 				<Sidebar />
-				<Content />
-				<Footer />
+				<Routes>
+					<Route
+						path="/Exterior"
+						element={<Content images={exteriorImages} />}
+					/>
+					<Route
+						path="/Garden"
+						element={<Content images={gardenImages} />}
+					/>
+					<Route
+						path="/Kitchen"
+						element={<Content images={kitchenImages} />}
+					/>
+					<Route
+						path="/Living-room"
+						element={<Content images={livingRoomImages} />}
+					/>
+					<Route
+						path="/Library"
+						element={<Content images={libraryImages} />}
+					/>
+					<Route
+						path="/"
+						element={<Content images={libraryImages} />}
+					/>
+				</Routes>
 			</div>
-		</>
+			<Footer />
+		</Router>
 	);
 }
 

@@ -46,13 +46,17 @@ a:link {
 
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  gap: 40px;
+  gap: 10px;
   margin-bottom: 30px;
 }
+
+
+
 
 @media screen and (max-width: 426px) and (min-width: 0px) {
   .footer-container {
     grid-template-columns: 1fr;
+
   }
 
 }
