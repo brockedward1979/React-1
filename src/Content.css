@@ -11,10 +11,9 @@
   /* justify-content: stretch; */
   /* ustunlar ekranni to‘ldiradi */
 
-  /* padding: 30px 15px 60px 15px; */
+  padding: 30px 15px 60px 15px;
 
-  background-color: #f9f9f9;
-
+  background-color: white;
 
 }
 
@@ -29,11 +28,15 @@
 
   transition: all 1s linear;
 
-  border-radius: 3px;
+  border-radius: 10px;
 
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  /* border: 2px solid rgba(255, 255, 255, 0.5); */
 
   overflow: hidden;
+
+
+
+
 
 
 
@@ -63,6 +66,8 @@
   object-position: center;
 
   transition: linear 0.5s;
+
+
 
 
 }
