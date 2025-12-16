@@ -10,16 +10,16 @@ export default function Footer() {
 	return (
 		<div className="ota_footer  umumiy">
 			<div className="footer-container">
-				<div className="footer-logo">
-					<h2 className="footer-title">House Design Gallery</h2>
+				<div className="footer-logo umumiy_footer">
+					<h2 className="footer-title sarlavhalar">House Design Gallery</h2>
 					<p>
 						Klassik va Zamonaviy uy ruhlantiruvchi g'oyalari. Eskirmaydigan
 						arxitektura va nafis interyerlar.
 					</p>
 				</div>
 
-				<div className="footer-links">
-					<h3>Tezkor linklar</h3>
+				<div className="footer-links umumiy_footer">
+					<h3 className="sarlavhalar">Tezkor linklar</h3>
 					<ul>
 						<li>
 							<Link to="/">Home</Link>
@@ -36,8 +36,8 @@ export default function Footer() {
 					</ul>
 				</div>
 
-				<div className="footer-contact">
-					<h3>Bog'lanish</h3>
+				<div className="footer-contact umumiy_footer">
+					<h3 className="sarlavhalar">Bog'lanish</h3>
 					<div className="ota_info_footer">
 						<img
 							src={rasm1}

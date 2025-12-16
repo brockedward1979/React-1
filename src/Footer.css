@@ -10,11 +10,27 @@
 
 }
 
+.sarlavhalar {
+  margin: 30px 0;
+
+  color: #876565;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
 .ota_info_footer {
   display: grid;
   grid-template-columns: auto auto;
 
   grid-gap: 10px;
+
+  justify-items: start;
+
+  justify-content: start;
+
+
+  align-content: end;
 
   align-items: center;
 
@@ -57,14 +73,30 @@ a:link {
   .footer-container {
     grid-template-columns: 1fr;
 
+    grid-gap: 50px;
+
+    padding: 10px;
+
   }
+
+  .umumiy_footer {
+
+    /* border-bottom: 1px solid #c9f3eb; */
+  }
+
 
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .footer-container {
     grid-template-columns: 2fr 1fr;
+
+    padding: 10px;
+
+    grid-gap: 50px;
   }
+
+
 
 }
 
@@ -112,7 +144,7 @@ a:link {
 
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid #7f8c8d;
+  /* border-top: 1px solid #7f8c8d; */
   padding-top: 15px;
   font-size: 13px;
   color: #95a5a6;

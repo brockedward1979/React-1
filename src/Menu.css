@@ -39,7 +39,8 @@
 .menu {
   display: grid;
   grid-gap: 5px;
-  background-color: #7a0f0f;
+  background-color: #500e0e;
+  /* #7a0f0f */
   padding: 30px;
   grid-template-columns: 1fr 2fr 4fr;
   align-items: center;
@@ -75,7 +76,7 @@
 
   flex: 1;
 
-  background-color: #7a0f0f;
+  background-color: #530e0e;
 
 
 }
@@ -84,7 +85,7 @@
   /* background: none; */
   border: 0;
   border-radius: 0;
-  background-color: #eee;
+  background-color: #f6f1f5;
   color: darkslategray;
 
 
@@ -98,7 +99,7 @@
 .qidiruv::placeholder {
   color: rgb(218, 232, 217);
   font-size: 16px;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 300;
 
   text-indent: 10px;
@@ -109,14 +110,14 @@
 .qidiruv:focus {
   /* border: 5px solid white; */
   width: 90%;
-  background-color: lightgray;
+  background-color: rgb(247, 242, 242);
   color: black;
   font-size: 20px;
-  border: 1px solid #6e6b6b;
+  /* border: 1px solid #b7b1b1; */
   outline: none;
 
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 
   /* transform: scale(1.1); */
 }
@@ -129,9 +130,9 @@
   position: relative;
   display: flex;
   justify-content: start;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
-  border: 1px solid #eee;
+  border: 1px solid #f4f1f1;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 
   width: 150px;
@@ -164,17 +165,25 @@
 
 @media screen and (max-width: 1440px) and (min-width: 768px) {
   .menu {
-    grid-template-columns: 1fr 2fr 4fr;
+    grid-template-columns: auto auto 4fr;
+  }
+
+  .linklar {
+    font-size: 20px;
+  }
+
+  .linklar_div {
+    margin: 0 30px;
   }
 
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-  .linklar {
-    font-size: 12px;
+  /* .linklar {
+    font-size: 16px;
     color: rgb(227, 227, 203);
 
-  }
+  } */
 
   .menu {
     grid-template-columns: auto 1fr;
@@ -188,20 +197,24 @@
   }
 
   .linklar {
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(227, 227, 203);
 
   }
 
   .qidiruv_button {
-    font-size: 5px;
+    font-size: 10px;
+  }
+
+  .linklar_div {
+    justify-self: right;
   }
 }
 
 
 @media screen and (max-width: 425px) and (min-width: 0px) {
   .linklar {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(227, 227, 203);
 
   }
@@ -210,6 +223,8 @@
 
   .linklar_div {
     gap: 18px;
+
+    justify-self: right;
   }
 
   .qidiruv {
