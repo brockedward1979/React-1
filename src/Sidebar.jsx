@@ -43,6 +43,48 @@ export default function Sidebar() {
 				>
 					Office
 				</Link>
+				<Link
+					to="/Dining-room"
+					className="buttonlar"
+				>
+					Dining room
+				</Link>
+				<Link
+					to="/Bedroom"
+					className="buttonlar"
+				>
+					Bedroom
+				</Link>
+				<Link
+					to="/Bathroom"
+					className="buttonlar"
+				>
+					Bathroom
+				</Link>
+				<Link
+					to="/Kids-room"
+					className="buttonlar"
+				>
+					Kidsroom
+				</Link>
+				<Link
+					to="/Balcony"
+					className="buttonlar"
+				>
+					Balcony
+				</Link>
+				<Link
+					to="/Patio"
+					className="buttonlar"
+				>
+					Patio
+				</Link>
+				<Link
+					to="/Terrace"
+					className="buttonlar"
+				>
+					Terrace
+				</Link>
 			</div>
 		</div>
 	);

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="750" viewBox="150 350 1350 150">
+  <defs>
+    <style>
+      .red { fill: #C8102E; }
+      .yellow { fill: #D4AF37; }
+      .window { fill: #ffffff; stroke: #C8102E; stroke-width: 2; }
+      .text-red { fill: white; font-family: Arial, sans-serif; font-weight: bold; font-size: 140px; }
+      .text-yellow { fill: #D4AF37; font-family: Arial, sans-serif; font-weight: normal; font-size: 120px; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <!-- <rect width="100%" height="100%" fill="#ffffff"/> -->
+
+  <!-- Rooftops -->
+  <g transform="translate(225,120)">
+    <!-- Left roof -->
+    <polygon class="red" points="0,180 180,45 360,180 315,180 180,90 45,180"/>
+    <rect class="window" x="142" y="135" width="45" height="45"/>
+
+    <!-- Middle roof -->
+    <g transform="translate(315,-45)">
+      <polygon class="yellow" points="0,225 210,60 420,225 375,225 210,120 45,225"/>
+      <rect class="window" x="172" y="172" width="90" height="90"/>
+    </g>
+
+    <!-- Right roof -->
+    <g transform="translate(630,0)">
+      <polygon class="red" points="0,180 180,45 360,180 315,180 180,90 45,180"/>
+      <rect class="window" x="142" y="135" width="45" height="45"/>
+    </g>
+  </g>
+
+  <!-- Brand name -->
+  <text x="675" y="540" text-anchor="middle" font-size="96" class="text-red">
+    ORZUDAGI UY
+  </text>
+
+  <!-- Tagline -->
+  <!-- <text x="675" y="700" text-anchor="middle" font-size="36" class="text-yellow">
+    Business Description Or Your Slogan
+  </text> -->
+</svg>

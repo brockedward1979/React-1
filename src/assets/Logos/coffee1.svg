@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Colors -->
+  <defs>
+    <style>
+      .bg { fill: #F3E7D7; }      /* Light beige background */
+      .cup { fill: #4E342E; }     /* Dark brown cup */
+      .splash { fill: #8D4A2F; }  /* Reddish-brown splash/human figure */
+      .text-coffee { fill: #4E342E; font-family: Poppins, Arial, sans-serif; font-weight: 800; }
+      .text-energy { fill: #8D4A2F; font-family: Poppins, Arial, sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Background (remove for transparent) -->
+  <rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+  <!-- Coffee cup -->
+  <g transform="translate(220,240)">
+    <!-- Cup body -->
+    <path class="cup" d="M0,0
+      c0,80 65,130 160,130
+      h120
+      c95,0 160,-50 160,-130
+      v-10
+      c-10,-40 -40,-60 -90,-60
+      h-260
+      c-50,0 -80,20 -90,60
+      z"/>
+    <!-- Cup rim inner shadow -->
+    <path class="cup" d="M40,-10
+      c0,0 40,-20 160,-20
+      c120,0 160,20 160,20
+      c-10,-18 -40,-30 -90,-30
+      h-140
+      c-50,0 -80,12 -90,30
+      z" opacity="0.8"/>
+    <!-- Handle -->
+    <path class="cup" d="M455,10
+      c40,0 70,30 70,70
+      c0,40 -30,70 -70,70
+      c-18,0 -34,-6 -46,-18
+      c16,-6 30,-22 30,-41
+      c0,-19 -14,-35 -30,-41
+      c12,-12 28,-18 46,-18
+      z"/>
+    <!-- Saucer -->
+    <ellipse class="cup" cx="220" cy="160" rx="210" ry="16" opacity="0.8"/>
+  </g>
+
+  <!-- Splash + human figure -->
+  <g transform="translate(360,160)">
+    <!-- Central figure -->
+    <path class="splash" d="M40,-20
+      c20,-10 40,-10 60,0
+      c8,4 14,12 18,20
+      c6,12 20,22 34,22
+      c10,0 20,-6 24,-16
+      c6,-16 -10,-32 -26,-42
+      c-28,-18 -64,-22 -96,-10
+      c-22,8 -40,22 -50,38
+      c-10,16 -2,34 14,38
+      c14,4 28,-6 34,-18
+      c5,-10 12,-18 18,-24 z"/>
+    <!-- Left splash arm -->
+    <path class="splash" d="M-30,10
+      c-22,4 -36,22 -34,40
+      c2,16 18,30 36,30
+      c22,0 40,-18 46,-38
+      c4,-14 -6,-30 -22,-32
+      c-8,-2 -18,-2 -26,0 z"/>
+    <!-- Right splash arm -->
+    <path class="splash" d="M140,10
+      c22,4 36,22 34,40
+      c-2,16 -18,30 -36,30
+      c-22,0 -40,-18 -46,-38
+      c-4,-14 6,-30 22,-32
+      c8,-2 18,-2 26,0 z"/>
+    <!-- Lower splash tails -->
+    <path class="splash" d="M20,60
+      c-6,18 -26,34 -46,36
+      c-16,2 -28,-8 -28,-22
+      c0,-16 14,-28 30,-32
+      c18,-4 36,2 44,18 z"/>
+    <path class="splash" d="M80,60
+      c6,18 26,34 46,36
+      c16,2 28,-8 28,-22
+      c0,-16 -14,-28 -30,-32
+      c-18,-4 -36,2 -44,18 z"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(0,0)">
+    <text x="400" y="500" text-anchor="middle" font-size="72" class="text-coffee">
+      COFFEE
+    </text>
+    <text x="400" y="545" text-anchor="middle" font-size="36" class="text-energy" letter-spacing="2">
+      ENERGY
+    </text>
+  </g>
+</svg>

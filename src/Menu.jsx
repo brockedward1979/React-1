@@ -2,8 +2,8 @@ import React from "react";
 import "./Menu.css";
 import { Link } from "react-router-dom";
 
-import rasm1 from "./assets/Icons/logo.svg";
-import rasm2 from "../src/assets/Icons/lupa-1.svg";
+import rasm1 from "./assets/Logotiplar/coffee2.svg";
+// import rasm2 from "../src/assets/Icons/lupa-1.svg";
 
 export default function Menu() {
 	return (
@@ -41,7 +41,13 @@ export default function Menu() {
 				</li>
 			</div>
 
-			<li className="itemlar searchbox">
+			{/* <li className="itemlar searchbox">
+				<input
+					type="text"
+					placeholder="Qidiruv"
+					className="qidiruv"
+				/>
+
 				<button className="qidiruv_button">
 					<img
 						src={rasm2}
@@ -49,12 +55,7 @@ export default function Menu() {
 						className="lupa"
 					/>
 				</button>
-				<input
-					type="text"
-					placeholder="Qidiruv"
-					className="qidiruv"
-				/>
-			</li>
+			</li> */}
 		</ul>
 	);
 }
