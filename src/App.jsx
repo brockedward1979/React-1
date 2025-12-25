@@ -1,8 +1,11 @@
 import "./App.css";
-import Content from "./Content";
-import Menu from "./Menu";
-import Sidebar from "./Sidebar";
-import Footer from "./Footer";
+import Content from "./components/Content/Content";
+import Menu from "./components/Menu/Menu";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 
 import {
 	gardenImages,
@@ -11,13 +14,18 @@ import {
 	livingRoomImages,
 	libraryImages,
 	officeImages,
-} from "./images";
+	diningRoomImages,
+	bedRoomImages,
+	bathRoomImages,
+	kidsRoomImages,
+	streetImages,
+} from "./assets/JS fayllar/images";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
-		<Router>
+		<BrowserRouter basename="/React-1">
 			<div className="ota">
 				<Menu />
 
@@ -47,10 +55,47 @@ function App() {
 						path="/Office"
 						element={<Content images={officeImages} />}
 					/>
+					<Route
+						path="/Dining-room"
+						element={<Content images={diningRoomImages} />}
+					/>
+					<Route
+						path="/Bed-room-couples"
+						element={<Content images={bedRoomImages} />}
+					/>
+					<Route
+						path="/Bath-room"
+						element={<Content images={bathRoomImages} />}
+					/>
+					<Route
+						path="/Kids-room"
+						element={<Content images={kidsRoomImages} />}
+					/>
+					<Route
+						path="/Street"
+						element={<Content images={streetImages} />}
+					/>
+					<Route
+						path="/"
+						element={<Content />}
+					>
+						<Route
+							index
+							element={<Home />}
+						/>
+						<Route
+							path="about"
+							element={<About />}
+						/>
+						<Route
+							path="contact"
+							element={<Contact />}
+						/>
+					</Route>
 				</Routes>
 			</div>
 			<Footer />
-		</Router>
+		</BrowserRouter>
 	);
 }
 
